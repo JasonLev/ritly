@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  link: MyText
+  hash_code: 1
+  created_at: MyString
+  datetime: MyString
+  updated_at: 2013-10-11 10:44:50
+
+two:
+  link: MyText
+  hash_code: 1
+  created_at: MyString
+  datetime: MyString
+  updated_at: 2013-10-11 10:44:50

@@ -1,0 +1,14 @@
+<h1>Urls</h1>
+
+<p><% @urls.each do |url| %>
+	<li><a href="<%= url.link%>"><%=url.link %></a>  
+		<%= url.hash_code%>
+	</li>
+	<% end %>
+</p>
+<h3>Add a new url</h3>
+<form method="post" action="/urls">
+	
+	<input type="url" name="url" placeholder="Your long url"/>
+	<input type="submit" value="Shorten"/>
+</form>
